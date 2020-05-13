@@ -1,4 +1,4 @@
-html, body, #home
+html, body
 {
 	height: 100%;
 	overflow-x: hidden;
@@ -8,13 +8,27 @@ body
 {
 
 	font-family: Circular, Helvetica, Arial, sans-serif, IosFix;
+	/*
 	background: url('imagens/hero-burst.svg'), linear-gradient(to bottom,#f15b8c, #f7b54f);
 	background-repeat: no-repeat;
-	background-position:center;
+	background-position: center;
 	background-size: cover;
-	
+	*/	
 
 
+}
+
+#principal{
+	height: 80%;
+}
+
+#teste
+{
+	height: 100%;
+	background: url('imagens/hero-burst.svg'), linear-gradient(to bottom,#f15b8c, #f7b54f);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
 }
 /*transparencia barra*/
 nav.transparencia
@@ -28,7 +42,13 @@ a.nav-link
 {
 	color: white;
 	font-weight: 700;
-	font-size: 14px;
+	font-size: 14.5px;
+}
+
+a.nav-link:hover
+{
+	color: #1DB954;
+	font-weight: 700;
 }
 
 .divisor
@@ -38,3 +58,54 @@ a.nav-link
 	margin: 12px 15px;
 }
 
+h1.formatacaoh2{
+	
+	font-size: 80px;
+	color: white;
+	font-weight: 900;
+	letter-spacing: -0.04em;
+    line-height: 1.15;
+    margin-top: 0;
+
+    
+}
+
+
+h4.formatacaoh4
+{
+	font-size: 18px;
+    font-weight: 400;
+    color: white;
+    
+}
+
+a.custom 
+{
+	margin-top: 18px;
+	font-size: 14px;
+	line-height: 1;
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	text-transform: uppercase;
+	transition: background 0.4s;
+	font-weight: 700;
+	letter-spacing: 2px;
+
+}
+
+a.btn-verde{
+	padding: 16px 48px;
+	background: #1DB954;
+
+
+}
+
+
+a.btn-verde:hover{
+	padding: 16px 48px;
+	background: #1ED760;
+	color: white;                
+
+}
