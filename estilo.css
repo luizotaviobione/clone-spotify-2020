@@ -109,3 +109,48 @@ a.btn-verde:hover{
 	color: white;                
 
 }
+
+footer
+{
+	background-color: black;
+	color:white;
+	padding-top:65px;
+	padding-bottom: 65px;
+}
+
+.lista ul 
+{
+	list-style: none;
+
+}
+.lista ul li
+{
+	padding-top: 25px;
+
+}
+
+
+.lista ul li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+
+
+}
+
+
+.lista ul li a:hover
+{
+	color: #1DB954;
+
+}
+
+.titulo{
+	color: #919496;
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 1.4;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
